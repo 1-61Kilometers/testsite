@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: #172145;
+    color: #7e87ab;
 }
 
 a {
@@ -126,6 +126,7 @@ nav ul li:hover .dropdown-menu {
 }
 
 .header-buttons {
+    padding-left: 10px;
     display: flex;
     gap: 10px;
 }

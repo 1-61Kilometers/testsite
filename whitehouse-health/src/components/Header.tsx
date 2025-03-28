@@ -31,17 +31,21 @@ const Header: React.FC = () => {
               <ul className="dropdown-menu">
                 <li className="service-category">Behavioral and Mental Health Services
                   <ul className="dropdown-submenu">
+                    <li><Link to="/services/mobile-crisis-response">Mobile Crisis Response</Link></li>
+                    <li><Link to="/services/community-stabilization">Community Stabilization</Link></li>
+                    <li><Link to="/services/residential-crisis-stabilization-unit">Residential Crisis Stabilization Unit</Link></li>
                     <li><Link to="/services/intensive-in-home">Intensive In-Home</Link></li>
                     <li><Link to="/services/mental-health-skill-building">Mental Health Skill Building</Link></li>
-                    <li><Link to="/services/community-stabilization">Community Stabilization</Link></li>
-                    <li><Link to="/services/mobile-crisis-response">Mobile Crisis Response</Link></li>
+                    <li><Link to="/services/substance-abuse-intensive-outpatient-treatment">Substance Abuse Intensive Outpatient Treat (SA IOPT)</Link></li>
+                    <li><Link to="/services/assertive-community-treatment">Assertive Community Treatment</Link></li>
                     <li><Link to="/services/medication-management">Medication Management</Link></li>
-                    <li><Link to="/services/parent-support-groups">Parent Support Groups</Link></li>
                   </ul>
                 </li>
                 <li className="service-category">Outpatient Therapy Services
                   <ul className="dropdown-submenu">
-                    <li><Link to="/services/outpatient-therapy">Outpatient Therapy</Link></li>
+                    <li><Link to="/services/parent-support-groups">Parent Support Groups</Link></li>
+                    <li><Link to="/services/anger-management">Anger Management</Link></li>
+                    <li><Link to="/services/icounsel">iCounsel</Link></li>
                   </ul>
                 </li>
                 <li className="service-category">Home Health Services

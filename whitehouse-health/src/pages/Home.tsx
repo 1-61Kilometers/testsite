@@ -61,7 +61,7 @@ const Home: React.FC = () => {
               <p>Let us be your premier destination for mental health services. At White House Health Systems, we understand the importance of prioritizing mental health and well-being in today's fast-paced world. Our dedicated team of professionals is committed to providing comprehensive compassionate care tailored to meet the unique needs of individuals and families. Whether you're seeking therapy, counseling, or psychiatric services, you can trust us to provide top-quality care in a supportive and nurturing environment. Take the first step towards a healthier mind and brighter future with White House Health Systems.</p>
             </div>
             <div className="info-image">
-              <img src="https://via.placeholder.com/500x400" alt="Mental Health Care" />
+              <img src="/images/patty.png" alt="Mental Health Care" />
             </div>
           </div>
         </div>

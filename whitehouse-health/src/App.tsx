@@ -12,11 +12,20 @@ import Footer from './components/Footer';
 
 // Import pages
 import Home from './pages/Home';
+import About from './pages/About';
 import IntensiveInHome from './pages/services/IntensiveInHome';
 import OutpatientTherapy from './pages/services/OutpatientTherapy';
 import MentalHealthSkillBuilding from './pages/services/MentalHealthSkillBuilding';
 import CommunityStabilization from './pages/services/CommunityStabilization';
 import MobileCrisisResponse from './pages/services/MobileCrisisResponse';
+import ResidentialCrisisStabilizationUnit from './pages/services/ResidentialCrisisStabilizationUnit';
+import SubstanceAbuseIntensiveOutpatientTreatment from './pages/services/SubstanceAbuseIntensiveOutpatientTreatment';
+import AssertiveCommunityTreatment from './pages/services/AssertiveCommunityTreatment';
+import AngerManagement from './pages/services/AngerManagement';
+import ICounsel from './pages/services/ICounsel';
+import MedicationManagement from './pages/services/MedicationManagement';
+import ParentSupportGroups from './pages/services/ParentSupportGroups';
+import AbsoluteHomeHealthCare from './pages/services/AbsoluteHomeHealthCare';
 
 // Placeholder for future service pages
 const ServicePlaceholder: React.FC<{ serviceName: string }> = ({ serviceName }) => (
@@ -45,6 +54,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
             
             {/* Service Routes */}
             <Route path="/services/intensive-in-home" element={<IntensiveInHome />} />
@@ -52,14 +62,16 @@ function App() {
             <Route path="/services/mental-health-skill-building" element={<MentalHealthSkillBuilding />} />
             <Route path="/services/community-stabilization" element={<CommunityStabilization />} />
             <Route path="/services/mobile-crisis-response" element={<MobileCrisisResponse />} />
-            
-            {/* Placeholder Routes */}
-            <Route path="/services/medication-management" element={<ServicePlaceholder serviceName="Medication Management" />} />
-            <Route path="/services/parent-support-groups" element={<ServicePlaceholder serviceName="Parent Support Groups" />} />
-            <Route path="/services/absolute-home-health-care" element={<ServicePlaceholder serviceName="Absolute Home Health Care" />} />
+            <Route path="/services/residential-crisis-stabilization-unit" element={<ResidentialCrisisStabilizationUnit />} />
+            <Route path="/services/substance-abuse-intensive-outpatient-treatment" element={<SubstanceAbuseIntensiveOutpatientTreatment />} />
+            <Route path="/services/assertive-community-treatment" element={<AssertiveCommunityTreatment />} />
+            <Route path="/services/anger-management" element={<AngerManagement />} />
+            <Route path="/services/icounsel" element={<ICounsel />} />
+            <Route path="/services/medication-management" element={<MedicationManagement />} />
+            <Route path="/services/parent-support-groups" element={<ParentSupportGroups />} />
+            <Route path="/services/absolute-home-health-care" element={<AbsoluteHomeHealthCare />} />
             
             {/* Placeholder for other main pages */}
-            <Route path="/about" element={<ServicePlaceholder serviceName="About Us" />} />
             <Route path="/careers" element={<ServicePlaceholder serviceName="Careers" />} />
             <Route path="/contact" element={<ServicePlaceholder serviceName="Contact Us" />} />
             <Route path="/schedule" element={<ServicePlaceholder serviceName="Schedule Appointment" />} />
