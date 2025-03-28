@@ -4,62 +4,62 @@ import ServicePage from '../../components/ServicePage';
 const CommunityStabilization: React.FC = () => {
   const infoSections = [
     {
-      title: 'The Importance of Community Stabilization Services',
-      content: 'Community stabilization services are essential for addressing the mental health needs of our community. Mental health crises can occur suddenly and without warning, impacting individuals and their loved ones in profound ways. Access to timely stabilization services can mean the difference between life and death, providing individuals with the support and resources needed to stabilize their condition and prevent further harm. At White House Health Systems, we recognize the urgency of these situations and are committed to providing prompt and compassionate care to those in need. Our approach is rooted in empathy, respect, and evidence-based practices, ensuring that every individual receives the highest quality of care during their most vulnerable moments.',
-      image: 'https://via.placeholder.com/500x400',
+      title: 'Understanding Community Stabilization: Our Approach to Mental Health Support',
+      content: 'Crisis stabilization is a critical component of mental health support, particularly for those who may be experiencing acute psychiatric distress. At White House Health Systems, we understand the complexities of mental health crises and the importance of providing timely and effective intervention. Our approach to crisis stabilization is rooted in empathy, respect, and evidence-based practices. We believe in meeting you where you are and tailoring our interventions to address your unique needs and circumstances. By offering a safe and supportive environment, we empower you to navigate through crises and take steps towards recovery and resilience.',
+      image: '/images/understanding.jpg',
       imageAlt: 'Mental Health Crisis Support'
     },
     {
-      title: 'How We Ensure Effective Community Stabilization',
-      content: 'Effective community stabilization requires a multidisciplinary approach that addresses the complex needs of individuals in crisis. At White House Health Systems, we prioritize collaboration, communication, and evidence-based practices to ensure the best possible outcomes for our clients. Our team of mental health professionals undergoes rigorous training and stays abreast of the latest advancements in psychiatric care to provide comprehensive and compassionate support. We utilize a range of therapeutic modalities, including crisis intervention techniques, brief solution-focused therapy, and mindfulness practices, tailored to meet each individual\'s unique needs. By working closely with clients, their families, and other healthcare providers, we develop personalized treatment plans that promote stability, resilience, and recovery.',
-      image: 'https://via.placeholder.com/500x400',
+      title: 'The Importance of Community Stabilization Services',
+      content: 'Crisis stabilization services are essential for addressing the mental health needs of our community. Mental health crises can occur suddenly and without warning, impacting you and you loved ones in profound ways. Access to timely crisis stabilization services can mean the difference between life and death, providing you with the support and resources needed to stabilize your condition and prevent further harm. At White House Health Systems, we recognize the urgency of these situations and are committed to providing prompt and compassionate care to those in need.',
+      image: '/images/theimportance.jpg',
       imageAlt: 'Stabilization Team',
       isAlternate: true
     },
     {
-      title: 'Accessing Community Stabilization Services',
-      content: 'Accessing community stabilization services at White House Health Systems is a straightforward and supportive process. From the moment you reach out for help, our team is here to guide you through every step of your journey to recovery. Our intake process is designed to be efficient and respectful of your needs, ensuring that you receive prompt attention and appropriate care. We offer a range of service options, including short-term intensive support, partial hospitalization programs, and outpatient crisis management, all tailored to meet your specific needs and circumstances. Our goal is to provide the right level of care at the right time, helping you navigate through crisis towards stability and well-being. We also work closely with community partners and referral sources to ensure a seamless transition between different levels of care as needed.',
-      image: 'https://via.placeholder.com/500x400',
+      title: 'How White House Health Systems Ensures Effective Crisis Stabilization',
+      content: 'Effective crisis stabilization requires a multidisciplinary approach that addresses the complex needs of individuals in crisis. At White House Health Systems, we prioritize collaboration, communication, and evidence-based practices to ensure the best possible outcomes for you. Our team of mental health professionals undergoes rigorous training and stays abreast of the latest advancements in psychiatric care to provide comprehensive compassionate care and support. By working closely with you, your families, and other healthcare providers, we develop personalized service plans that promote stability, resilience, and recovery.',
+      image: '/images/howv.jpg',
       imageAlt: 'Accessing Mental Health Services'
     }
   ];
 
   const faqItems = [
     {
-      title: 'What constitutes a mental health crisis?',
-      content: 'A mental health crisis refers to any situation in which a person\'s behavior, emotions, or psychological state puts them at risk of harming themselves or others, or prevents them from being able to care for themselves or function effectively in the community. This may include suicidal thoughts or behaviors, acute psychosis, severe depression or anxiety, trauma reactions, or significant changes in behavior due to substance use or mental illness. If you or someone you know is experiencing these symptoms, our community stabilization services can provide immediate assessment, intervention, and support to address the crisis and develop a plan for ongoing care and recovery.'
+      title: 'How do I know if White House Health Systems is the right fit for me?',
+      content: 'Choosing a mental health provider is an important decision, and we understand the importance of finding the right fit. We encourage you to explore our website, read about our services and team members, and reach out to us with any questions or concerns you may have. Additionally, scheduling a consultation or initial appointment can provide you with an opportunity to discuss your needs and goals with one of our clinicians and determine if our approach aligns with your preferences and expectations.'
     },
     {
-      title: 'How long do community stabilization services typically last?',
-      content: 'The duration of community stabilization services varies depending on individual needs, the nature and severity of the crisis, and the person\'s response to intervention. Typically, acute crisis stabilization services may last from a few days to a couple of weeks, focusing on addressing immediate safety concerns, reducing symptoms, and connecting individuals with appropriate ongoing care. Throughout the stabilization process, our team continuously assesses progress and works collaboratively with clients and their support systems to determine the appropriate next steps in their care journey. Our goal is to provide the right level of support for the right amount of time, ensuring a smooth transition to less intensive services when the individual is ready.'
+      title: 'What types of mental health conditions do you treat?',
+      content: 'We provide comprehensive mental health services to address a wide range of conditions, including but not limited to anxiety disorders, depression, bipolar disorder, trauma-related disorders, ADHD, OCD, and adjustment disorders. Our experienced clinicians are skilled in conducting thorough assessments and developing individualized treatment plans tailored to each client\'s unique needs and circumstances.'
     },
     {
-      title: 'What happens after the initial crisis has been stabilized?',
-      content: 'After the initial crisis has been stabilized, we work closely with each individual to develop a comprehensive discharge and follow-up plan. This plan typically includes referrals to appropriate levels of ongoing care, such as outpatient therapy, medication management, support groups, or community resources. We also focus on identifying and addressing factors that contributed to the crisis, developing coping strategies and safety plans, and strengthening support systems to prevent future crises. Our care coordinators maintain contact with clients during the transition period to ensure they successfully connect with ongoing services and have the support they need to maintain stability. We believe that effective crisis stabilization is not just about addressing immediate concerns but also about laying the foundation for long-term recovery and well-being.'
+      title: 'How long does therapy typically last?',
+      content: 'The duration of therapy varies depending on several factors, including the nature and severity of the presenting concerns, the client\'s goals, and their progress in therapy. Some individuals may benefit from short-term, solution-focused therapy to address specific issues, while others may require longer-term support for more complex or chronic conditions. Our therapists work collaboratively with clients to establish treatment goals and regularly evaluate progress to ensure that therapy remains effective and beneficial.'
     },
     {
-      title: 'How do you involve family members or support persons in the stabilization process?',
-      content: 'With the client\'s consent, we actively involve family members or other support persons in the stabilization process, recognizing their important role in providing support and promoting recovery. Family involvement may include participating in assessment and treatment planning discussions, learning about the nature of the client\'s mental health challenges, developing skills to support their loved one, and connecting with resources for family members. We offer family education sessions, supportive counseling, and guidance on creating a supportive home environment. We also help families understand the importance of maintaining their own well-being while supporting their loved one. Our approach is collaborative and strengths-based, respecting both the individual\'s autonomy and the value of supportive relationships in the recovery process.'
+      title: 'Is therapy confidential?',
+      content: 'Yes, confidentiality is a fundamental aspect of our therapeutic process. We adhere to strict ethical and legal guidelines to protect the privacy and confidentiality of our clients\' information. Information shared during therapy sessions is kept confidential unless mandated by law or if there is a risk of harm to the client or others. Our clinicians prioritize creating a safe and trusting environment where clients feel comfortable expressing themselves openly without fear of judgment or breach of confidentiality.'
     },
     {
-      title: 'Is insurance accepted for community stabilization services?',
-      content: 'Yes, we accept most major insurance plans for our community stabilization services, including Medicare, Medicaid, and many private insurance plans. Our administrative team works diligently to verify benefits and obtain necessary authorizations prior to or during service delivery. We understand that navigating insurance coverage during a crisis can be overwhelming, so we handle much of this process for our clients. For individuals without insurance or with limited coverage, we offer information about financial assistance programs, sliding fee scales, and other options to make services accessible. Our priority is ensuring that individuals in crisis receive the care they need, regardless of financial circumstances. We encourage you to contact our intake department for specific information about coverage and costs.'
+      title: 'Can I involve my family members or loved ones in therapy?',
+      content: 'Yes, we encourage family involvement and support in the therapeutic process, particularly for individuals receiving treatment for family-related issues or seeking to improve family dynamics. With your consent, our therapists can involve family members or loved ones in therapy sessions to enhance communication, resolve conflicts, and strengthen relationships. Family therapy can be a valuable tool in addressing shared concerns and promoting healing and growth within the family unit.'
     }
   ];
 
   return (
     <ServicePage
       title="Community Stabilization"
-      subtitle="Immediate intervention and support during mental health crises"
-      heroImage="https://via.placeholder.com/600x400"
-      aboutTitle="Community Stabilization Services: Restoring Balance"
-      aboutContent="At White House Health Systems, we understand the critical need for immediate support during times of crisis. Our dedicated team is committed to providing comprehensive and compassionate care for individuals facing mental health challenges. With our expert staff and state-of-the-art facilities, we offer a safe and supportive environment in which clients can become stabilized and begin the journey towards recovery. Our community stabilization services focus on addressing immediate concerns while developing a sustainable plan for ongoing wellness and support."
+      subtitle="Restoring Balance"
+      heroImage="/images/commmunity ssytab.jpg"
+      aboutTitle=""
+      aboutContent="At White House Health Systems, we understand the critical need for immediate support during times of crisis. Our dedicated team is committed to providing comprehensive and compassionate care if you are facing mental health challenges. With our expert staff and state-of-the-art facilities, we offer a safe and supportive environment in which you can become stabilized and begin the journey towards recovery."
       infoSections={infoSections}
       faqItems={faqItems}
-      ctaTitle="Get Support During a Mental Health Crisis"
+      ctaTitle="Accessing Community Stabilization Services: What to Expect from White House Health Systems"
       ctaContent={[
-        "At White House Health Systems, we are dedicated to providing comprehensive and compassionate mental health care. Our Community Stabilization team is ready to provide rapid assessment, intervention, and support when you need it most.",
-        "For more information about our Community Stabilization services or to access crisis support, please contact us at 757-262-7615 or visit our main office at 2 Eaton St. Suite 506 Hampton, VA 23669. We look forward to partnering with you on your journey to mental health and well-being."
+        "Accessing crisis stabilization services at White House Health Systems is a straightforward and supportive process. From the moment you reach out for help, our team is here to guide you through every step of your journey to recovery. Our intake process is designed to be efficient and respectful of your needs, ensuring that you receive prompt attention and appropriate care. Whether you require inpatient stabilization services or outpatient support, we offer a range of options to meet your needs. At White House Health Systems, you can expect compassionate care, personalized attention, and a commitment to helping you achieve stability and well-being.",
+        "For more information about our Community Stabilization services or to access crisis support, please contact us at 757-262-7615 or visit our main office at 2 Eaton St. Suite 506 Hampton, VA 23669."
       ]}
     />
   );

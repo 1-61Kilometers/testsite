@@ -37,7 +37,7 @@ const Home: React.FC = () => {
               <p>Raising The Standard For Excellence In Mental Health Care</p>
             </div>
             <div className="hero-image">
-              <img src="/background.webp" alt="White House Health Systems" />
+              <img src="/images/homelaunch.png" alt="White House Health Systems" />
             </div>
           </div>
         </div>
